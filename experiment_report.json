@@ -1,0 +1,106 @@
+{
+  "experiment_date": "2026-01-07 07:25:12",
+  "summary": {
+    "total_circuits": 8,
+    "total_qubits": 28,
+    "total_gates": 99,
+    "total_vcs_generated": 79,
+    "total_vcs_proven": 74,
+    "overall_success_rate": 93.67088607594937,
+    "total_verification_time": 0.227,
+    "mean_verification_time": 0.028375,
+    "vc_throughput": 348.01762114537445,
+    "circuit_throughput": 35.242290748898675,
+    "mean_time_per_vc": 2.8734177215189876
+  },
+  "circuits": {
+    "Bell_State": {
+      "qubits": 2,
+      "gates": 3,
+      "vcs_generated": 5,
+      "vcs_proven": 5,
+      "success_rate": 100.0,
+      "verification_time": 0.009,
+      "category": "Basic",
+      "classification": "Entanglement",
+      "circuit_image": "circuit_bell_state.png"
+    },
+    "GHZ_State_4q": {
+      "qubits": 4,
+      "gates": 6,
+      "vcs_generated": 8,
+      "vcs_proven": 8,
+      "success_rate": 100.0,
+      "verification_time": 0.012,
+      "category": "Basic",
+      "classification": "Multi-qubit Entanglement",
+      "circuit_image": "circuit_ghz_state.png"
+    },
+    "Quantum_Fourier_Transform_5q": {
+      "qubits": 5,
+      "gates": 25,
+      "vcs_generated": 15,
+      "vcs_proven": 14,
+      "success_rate": 93.30000000000001,
+      "verification_time": 0.042,
+      "category": "Advanced",
+      "classification": "Quantum Algorithm",
+      "circuit_image": "circuit_qft.png"
+    },
+    "Grover_Search_4q": {
+      "qubits": 4,
+      "gates": 18,
+      "vcs_generated": 12,
+      "vcs_proven": 11,
+      "success_rate": 91.7,
+      "verification_time": 0.038,
+      "category": "Advanced",
+      "classification": "Search Algorithm",
+      "circuit_image": "circuit_grover.png"
+    },
+    "VQE_H2_Molecule": {
+      "qubits": 4,
+      "gates": 22,
+      "vcs_generated": 14,
+      "vcs_proven": 13,
+      "success_rate": 92.9,
+      "verification_time": 0.051,
+      "category": "Advanced",
+      "classification": "Quantum Chemistry",
+      "circuit_image": "circuit_vqe.png"
+    },
+    "Quantum_Teleportation": {
+      "qubits": 3,
+      "gates": 8,
+      "vcs_generated": 9,
+      "vcs_proven": 8,
+      "success_rate": 88.9,
+      "verification_time": 0.029,
+      "category": "Intermediate",
+      "classification": "Quantum Protocol",
+      "circuit_image": "circuit_teleportation.png"
+    },
+    "Superdense_Coding": {
+      "qubits": 2,
+      "gates": 5,
+      "vcs_generated": 6,
+      "vcs_proven": 6,
+      "success_rate": 100.0,
+      "verification_time": 0.015,
+      "category": "Intermediate",
+      "classification": "Quantum Communication",
+      "circuit_image": "circuit_superdense.png"
+    },
+    "Bernstein_Vazirani_4q": {
+      "qubits": 4,
+      "gates": 12,
+      "vcs_generated": 10,
+      "vcs_proven": 9,
+      "success_rate": 90.0,
+      "verification_time": 0.031,
+      "category": "Intermediate",
+      "classification": "Oracle Algorithm",
+      "circuit_image": "circuit_bernstein_vazirani.png"
+    }
+  }
+}
