@@ -1,0 +1,33 @@
+============================================================
+QUANTUM VERIFICATION EXPERIMENT SUMMARY
+============================================================
+
+Experiment Date: 2026-01-07 07:25:12
+
+SUMMARY STATISTICS:
+----------------------------------------
+Total Circuits: 8
+Total Qubits: 28
+Total Gates: 99
+Total VCs Generated: 79
+Total VCs Proven: 74
+Overall Success Rate: 93.7%
+Total Verification Time: 0.227s
+Mean Verification Time: 0.028s
+
+PERFORMANCE METRICS:
+----------------------------------------
+VCs Verified per Second: 348.0
+Circuits Verified per Second: 35.24
+Average Time per VC: 2.9ms
+
+CIRCUIT IMAGES GENERATED:
+----------------------------------------
+• Bell_State: circuit_bell_state.png
+• GHZ_State_4q: circuit_ghz_state.png
+• Quantum_Fourier_Transform_5q: circuit_qft.png
+• Grover_Search_4q: circuit_grover.png
+• VQE_H2_Molecule: circuit_vqe.png
+• Quantum_Teleportation: circuit_teleportation.png
+• Superdense_Coding: circuit_superdense.png
+• Bernstein_Vazirani_4q: circuit_bernstein_vazirani.png
